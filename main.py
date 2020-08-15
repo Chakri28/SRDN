@@ -565,9 +565,9 @@ if __name__ == '__main__':
     parser.add_argument('--model_dir', type=str, default="./model/2014Lap")
     parser.add_argument('--eval_dir', type=str, default="./eval/2014Lap")
     parser.add_argument('--bert_json_dir', type=str,
-                        default="./bert-base-uncased/bert_config.json")
+                        default="./bert_config.json")
     parser.add_argument('--bert_checkpoint_dir', type=str,
-                        default="./bert-base-uncased/bert-base-uncased-pytorch_model.bin")
+                        default="./pytorch_model.bin")
 
     parser.add_argument('--tagScheme', type=str, default="BIO")
     parser.add_argument('--ifgpu', type=bool, default=True)
